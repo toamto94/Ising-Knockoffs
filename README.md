@@ -1,5 +1,6 @@
 # Ising-Knockoffs
-## This is an implementation of the Ising Knockoffs procedure by https://arxiv.org/abs/1807.00931
+## This is an implementation of the Ising Knockoffs procedure by
+https://arxiv.org/abs/1807.00931
 
 
 ```python
