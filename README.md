@@ -25,7 +25,7 @@ Theta = np.array(pd.read_csv("data\\Theta.csv"))
 sampler = Ising_Knockoffs(Z, Theta)
 ```
 
-Sample knockoffs
+### Sample knockoffs
 
 
 ```python
