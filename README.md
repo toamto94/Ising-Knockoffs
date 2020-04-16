@@ -10,7 +10,7 @@ from pylab import *
 from Ising_Knockoffs import Ising_Knockoffs
 ```
 
-Load Ising data and the respective coupling matrix
+### Load Ising data and the respective coupling matrix
 
 
 ```python
@@ -18,7 +18,7 @@ Z = np.array(pd.read_csv("data\\Z.csv"))
 Theta = np.array(pd.read_csv("data\\Theta.csv"))
 ```
 
-Create Instance of sampler
+### Create Instance of sampler
 
 
 ```python
@@ -32,7 +32,7 @@ Sample knockoffs
 Z_tilde = sampler.sample_knockoffs()
 ```
 
-Visualize results
+### Visualize results
 
 
 ```python
