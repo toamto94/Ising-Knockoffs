@@ -1,3 +1,7 @@
+# Ising-Knockoffs
+## This is an implementation of the Ising Knockoffs procedure by https://arxiv.org/abs/1807.00931
+
+
 ```python
 import numpy as np
 import pandas as pd
