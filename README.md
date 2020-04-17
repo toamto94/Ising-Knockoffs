@@ -1,5 +1,5 @@
 # Ising-Knockoffs
-#### This is an implementation of the high-dimensional Ising-Knockoff procedure according to https://arxiv.org/abs/1807.00931
+#### This is a Gibbs-Sampler of the high-dimensional Ising-Knockoff procedure according to https://arxiv.org/abs/1807.00931
 
 
 
