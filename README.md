@@ -6,7 +6,7 @@
 ```python
 import numpy as np
 import pandas as pd
-from pylab import *
+import matplotlib.pyplot as plt
 from Ising_Knockoffs import Ising_Knockoffs
 ```
 
@@ -36,12 +36,12 @@ Z_tilde = sampler.sample_knockoffs()
 
 
 ```python
-fig, ax = subplots(1, 2, figsize=(10, 20))
+fig, ax = plt.subplots(1, 2, figsize=(10, 20))
 ax[0].imshow(Z)
 ax[0].set_xlabel("original features")
 ax[1].set_xlabel("knockoff features")
 ax[1].imshow(Z_tilde)
-show()
+plt.show()
 ```
 
 
