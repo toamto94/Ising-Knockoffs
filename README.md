@@ -7,7 +7,7 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from Ising_Knockoffs import Ising_Knockoffs
+from Ising_Knockoffs.Ising_Knockoffs import Ising_Knockoffs
 ```
 
 ### Load Ising data and the respective coupling matrix
